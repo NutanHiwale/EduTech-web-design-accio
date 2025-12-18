@@ -1,0 +1,363 @@
+.parent-container{
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav-content p{
+    margin: 20px;
+}
+.navbar button{
+    padding: 6px 15px;
+    border-radius: 15px;
+    font-size: medium;
+}
+.nav-img{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.nav-img p{
+    margin: 10px;
+}
+.template1{
+    max-width: 790px;
+    margin: auto;
+    display: flex;
+    border-radius: 20px 20px 150px 20px;
+    background: linear-gradient(
+        270deg,
+        #EE9AE5,
+        #5961F9
+        
+    );
+    color: white;
+    padding: 30px;
+}
+.heading{
+    width: 50%;
+    padding-right: 35px; 
+}
+.heading button{
+    background-color: #ED80FD;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: hsl(292, 97%, 75%);
+}
+.cardsTemp1{
+    max-width: 790px;
+    margin : auto;
+    display: flex;
+    padding: 15px;
+}
+.paragraph{
+    width: 40%;
+}
+.card1{
+    box-shadow: 0 4px 8px 0  #f1aafc;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 120px;
+}
+.card1 p{
+    padding-left: 10px;
+}
+.card2{
+    box-shadow: 0 4px 8px 0 #f1aafc;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 120px;
+}
+.card2 p{
+    padding-left: 10px;
+}
+.card3{
+    box-shadow: 0 4px 8px 0 #f1aafc;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 120px;
+}
+.card3 p{
+    padding-left: 10px;
+}
+.template2{
+    display: flex;
+    max-width: 790px;
+    margin : auto;
+    padding: 15px;
+    border-radius: 100px 20px 100px 20px;
+    background:linear-gradient(
+        0deg,
+        #f7c0f1,
+        #a7acff
+        
+    );
+    color: white;
+    margin-top: 20px;
+}
+.aboutUs{
+    padding-right: 40px;
+    padding-left: 30px;
+}
+.aboutUs h1{
+    padding-left: 200px;
+}
+.photo p{
+    padding-left: 90px;
+}
+.courseInfo h1{
+    padding-left: 220px;
+    margin-top: 40px;
+}
+.courseInfo p{
+    padding-left: 190px;
+}
+.toggleSwitch{
+    display: flex;
+    padding-left: 320px;
+}
+.toggleSwitch p{
+    margin-right: 20px;
+}
+.switch{
+    margin-right: 20px;
+    padding: 10px;
+}
+.cardsTemp2{
+    max-width: 790px;
+}
+.courses{
+    margin: auto;
+    display: flex;
+    padding: 15px;
+}
+.courseCard1{
+    box-shadow: 0 4px 8px 0  #f1aafc;
+    border-radius: 10px;
+    margin: 30px;
+    width: 200px;
+}
+.courseCard1 h2{
+    padding-left: 70px;
+    margin-top: 40px;
+}
+.courseCard1 h1{
+    padding-left: 60px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: #ED80FD;
+}
+.courseCard1 p{
+    padding-left: 150px;
+    margin-top: 0;
+}
+.courseList{
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.courseList li{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.green::marker{
+    color: #39DC98;
+}
+.red::marker{
+    color: red;
+}
+.courseCard1 button{
+    background-color: #ED80FD;
+    border-color: #ED80FD;
+    border-radius: 5px;
+    color: white;
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.courseCard2{
+    box-shadow: 0 4px 8px 0  #f1aafc;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 200px;
+}
+.courseCard2 h2{
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.courseCard2 h1{
+    padding-left: 60px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: #ED80FD;
+}
+.courseCard2 p{
+    padding-left: 150px;
+    margin-top: 0;
+}
+.courseCard2 button{
+    background-color: #ED80FD;
+    border-color: #ED80FD;
+    border-radius: 5px;
+    color: white;
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.courseCard3{
+    box-shadow: 0 4px 8px 0  #f1aafc;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 200px;
+}
+.courseCard3 h2{
+    padding-left: 70px;
+    margin-top: 40px;
+}
+.courseCard3 h1{
+    padding-left: 60px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: #ED80FD;
+}
+.courseCard3 p{
+    padding-left: 150px;
+    margin-top: 0;
+}
+.courseCard3 button{
+    background-color: #ED80FD;
+    border-color: #ED80FD;
+    border-radius: 5px;
+    color: white;
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.template3{
+    display:flex;
+    flex-direction: row;
+    max-width: 790;
+    margin: auto;
+    background: linear-gradient(
+        270deg,
+        #EE9AE5,
+        #5961F9
+        
+    );
+    border-radius: 20px;
+}
+.title h1{
+    padding-left: 40px;
+    padding-top: 40px;
+    color: white;
+}
+.title button{
+    margin-left: 40px;
+    padding: 10px;
+    color: white;
+    background-color: #ED80FD;
+    border-color: #ED80FD;
+    border-radius: 5px;
+}
+.form{
+    max-width: 790;
+    display: flex;
+    flex-direction: column;
+}
+.form h1{
+    padding-top: 20px;
+    padding-left: 300px;
+    margin-bottom: 0px;
+}
+.form p{
+    padding-left: 270px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.formContent{
+    background-color: #ea8bf982;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-right: 200px;
+    margin-left: 140px;
+    margin-right: 140px;
+    border-radius: 20px;
+}
+.formContent input{
+    border: none;
+    border-bottom: 1px solid #333;
+    background: transparent;
+}
+.name{
+    display: flex;
+    padding: 20px;
+}
+.phone{
+    display: flex;
+    padding: 20px;
+}
+.email{
+    display: flex;
+    padding: 20px;
+}
+.comment{
+    display: flex;
+    padding: 40px;
+    padding-left: 20px;
+}
+.footer{
+    display: flex;
+    background-color: #010851;
+    color: white;
+    padding-bottom: 40px;
+    margin-top: 80px;
+}
+.leftSide{
+    padding: 40px;
+    width: 50%;
+}
+.footer-logo{
+    margin-bottom: 40px;
+}
+.leftSide p{
+    margin-top: 20px;
+}
+.inputButton{
+    display:flex;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.inputButton input{
+    background-color: #b9bcfc;
+}
+.inputButton button{
+    background-color: #ED80FD;
+    border-color: #ED80FD;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+.footer-middle{
+    width: 25%;
+    padding-top: 30px;
+}
+.footer-right{
+    padding-right: 40px;
+    padding-top: 30px;
+}
